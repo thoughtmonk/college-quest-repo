@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>spritesheet.png</Source>
+      <Name>spritesheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\spritesheet.xnb</Output>
+      <Time>2012-10-13T03:45:37.5707471-03:00</Time>
+    </Item>
+    <Item>
+      <Source>sigma_star_walking_8_frames_ryanwh.png</Source>
+      <Name>sigma_star_walking_8_frames_ryanwh</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\sigma_star_walking_8_frames_ryanwh.xnb</Output>
+      <Time>2012-10-17T04:50:44.8207808-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Pericles6.spritefont</Source>
+      <Name>Fonts\Pericles6</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Fonts\Pericles6.xnb</Output>
+      <Time>2012-10-19T01:39:42.551316-03:00</Time>
+    </Item>
+    <Item>
+      <Source>cFsXP.png</Source>
+      <Name>cFsXP</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\cFsXP.xnb</Output>
+      <Time>2012-11-07T19:13:22.9567135-04:00</Time>
+    </Item>
+    <Item>
+      <Source>jTisf.png</Source>
+      <Name>jTisf</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\jTisf.xnb</Output>
+      <Time>2012-11-07T19:13:22.9717136-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tilesets\part1_tileset.png</Source>
+      <Name>Tilesets\part1_tileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\part1_tileset.xnb</Output>
+      <Time>2012-10-17T04:50:44.7087804-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tilesets\part4_tileset.png</Source>
+      <Name>Tilesets\part4_tileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\part4_tileset.xnb</Output>
+      <Time>2012-10-17T04:50:44.7617806-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tilesets\part2_tileset.png</Source>
+      <Name>Tilesets\part2_tileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\part2_tileset.xnb</Output>
+      <Time>2012-10-17T06:09:42.0348347-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tilesets\part3_tileset.png</Source>
+      <Name>Tilesets\part3_tileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\part3_tileset.xnb</Output>
+      <Time>2012-10-18T22:50:57.0361528-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tilesets\hilight.png</Source>
+      <Name>Tilesets\hilight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\hilight.xnb</Output>
+      <Time>2012-10-20T02:14:23.413474-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tilesets\mousemap.png</Source>
+      <Name>Tilesets\mousemap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\mousemap.xnb</Output>
+      <Time>2012-10-20T02:17:10.4975575-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\T_Vlad_Sword_Walking_48x48.png</Source>
+      <Name>Characters\T_Vlad_Sword_Walking_48x48</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Characters\T_Vlad_Sword_Walking_48x48.xnb</Output>
+      <Time>2012-11-11T01:22:16.7964724-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\sigma_star_walking_8_frames_ryanwh.png</Source>
+      <Name>Characters\sigma_star_walking_8_frames_ryanwh</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Characters\sigma_star_walking_8_frames_ryanwh.xnb</Output>
+      <Time>2012-11-11T01:22:29.6592467-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Sean\documents\visual studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T16:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T16:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T16:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T16:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T16:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T16:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-07-05T04:31:09.7158417-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

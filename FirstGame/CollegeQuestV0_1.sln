@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeQuestV0_1", "FirstGame\FirstGame\CollegeQuestV0_1.csproj", "{EF625C9D-99B1-4ADE-A0B2-970C627EAAEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeQuestContent", "FirstGame\FirstGameContent\CollegeQuestContent.contentproj", "{88C6B058-F41A-43AF-ABA7-6CCC4B9FEC85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF625C9D-99B1-4ADE-A0B2-970C627EAAEA}.Debug|x86.ActiveCfg = Debug|x86
+		{EF625C9D-99B1-4ADE-A0B2-970C627EAAEA}.Debug|x86.Build.0 = Debug|x86
+		{EF625C9D-99B1-4ADE-A0B2-970C627EAAEA}.Release|x86.ActiveCfg = Release|x86
+		{EF625C9D-99B1-4ADE-A0B2-970C627EAAEA}.Release|x86.Build.0 = Release|x86
+		{88C6B058-F41A-43AF-ABA7-6CCC4B9FEC85}.Debug|x86.ActiveCfg = Debug|x86
+		{88C6B058-F41A-43AF-ABA7-6CCC4B9FEC85}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
