@@ -17,3 +17,26 @@ C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGam
 C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGame\bin\x86\Debug\CollegeQuestV0_1.pdb
 C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGame\obj\x86\Debug\CollegeQuestV0_1.exe
 C:\Users\Sean\Documents\Visual Studio 2010\Projects\FirstGame\FirstGame\FirstGame\obj\x86\Debug\CollegeQuestV0_1.pdb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\part1_tileset.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\part4_tileset.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\sigma_star_walking_8_frames_ryanwh.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\part2_tileset.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\part3_tileset.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\hilight.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Tilesets\mousemap.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\cFsXP.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\jTisf.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Characters\T_Vlad_Sword_Walking_48x48.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Characters\sigma_star_walking_8_frames_ryanwh.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\CollegeQuestV0_1.exe
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\CollegeQuestV0_1.pdb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\obj\x86\Debug\CollegeQuestV0_1.exe
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\obj\x86\Debug\CollegeQuestV0_1.pdb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Levels\level1.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\LevelLibrary.dll
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\LevelLibrary.pdb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\spritesheet.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Fonts\Pericles6.xnb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\FirstGame\FirstGame\bin\x86\Debug\Content\Levels\level2.xnb

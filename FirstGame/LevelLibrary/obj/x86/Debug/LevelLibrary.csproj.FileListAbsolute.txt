@@ -1,0 +1,6 @@
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelLibrary\bin\x86\Debug\LevelLibrary.dll
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelLibrary\bin\x86\Debug\LevelLibrary.pdb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelLibrary\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelLibrary\obj\x86\Debug\LevelLibrary.dll
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelLibrary\obj\x86\Debug\LevelLibrary.pdb

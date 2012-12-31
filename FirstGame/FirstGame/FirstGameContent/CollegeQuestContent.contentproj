@@ -80,13 +80,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fonts\Pericles6.spritefont">
-      <Name>Pericles6</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Tilesets\hilight.png">
       <Name>hilight</Name>
       <Importer>TextureImporter</Importer>
@@ -124,6 +117,33 @@
       <Name>sigma_star_walking_8_frames_ryanwh</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LevelContentPipelineExtension\LevelContentPipelineExtension.csproj">
+      <Project>{E6041E8D-1ECF-40DC-87A5-5E555F19E0DB}</Project>
+      <Name>LevelContentPipelineExtension</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\level1.level">
+      <Name>level1</Name>
+      <Importer>LevelImporter</Importer>
+      <Processor>LevelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\Pericles6.spritefont">
+      <Name>Pericles6</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\level2.level">
+      <Name>level2</Name>
+      <Importer>LevelImporter</Importer>
+      <Processor>LevelProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

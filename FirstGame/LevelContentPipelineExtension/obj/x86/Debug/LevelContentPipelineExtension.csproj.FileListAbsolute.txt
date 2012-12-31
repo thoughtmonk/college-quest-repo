@@ -1,0 +1,7 @@
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelContentPipelineExtension\bin\x86\Debug\LevelContentPipelineExtension.dll
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelContentPipelineExtension\bin\x86\Debug\LevelContentPipelineExtension.pdb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelContentPipelineExtension\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelContentPipelineExtension\obj\x86\Debug\LevelContentPipelineExtension.dll
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelContentPipelineExtension\obj\x86\Debug\LevelContentPipelineExtension.pdb
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelContentPipelineExtension\bin\x86\Debug\LevelLibrary.dll
+C:\Users\Elliott\Documents\GitHub\college-quest-repo\FirstGame\LevelContentPipelineExtension\bin\x86\Debug\LevelLibrary.pdb

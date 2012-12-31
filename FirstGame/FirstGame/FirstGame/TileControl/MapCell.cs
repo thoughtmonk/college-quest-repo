@@ -19,8 +19,10 @@ namespace FirstGame
 
         public bool Walkable{ get; set; }
 
-        public int TileID
+        public int TileID{ get; set; }
+        /*
         {
+     
             get { return BaseTiles.Count > 0 ? BaseTiles[0] : 0; }
             set
             {
@@ -29,7 +31,9 @@ namespace FirstGame
                 else
                     AddBaseTile(value);
             }
+             
         }
+         */
         
         // Set Tile ID
         public MapCell(int tileID)

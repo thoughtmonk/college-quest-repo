@@ -14,11 +14,11 @@ namespace FirstGame
         public List<MapRow> Rows = new List<MapRow>();
 
         // Total map size in tiles
-        public int MapWidth = 50;
-        public int MapHeight = 50;
+        public int MapWidth;
+        public int MapHeight;
 
         private Texture2D mouseMap;
-
+ 
         // Convert a given point that the mouse is hovering over into the tile it is on.
         public Point WorldToMapCell(Point worldPoint, out Point localPoint)
         {
@@ -92,9 +92,14 @@ namespace FirstGame
          * Random maps 
          * As you can tell, it is currently hardcoded!
          */
-        public TileMap(Texture2D mouseMap)
+        public TileMap(Texture2D mouseMap, LevelLibrary.Level level)
         {
             this.mouseMap = mouseMap;
+
+            // Find Width and height from level file
+            MapWidth = level.Rows;
+            MapHeight = level.Columns;
+
 
             for (int y = 0; y < MapHeight; y++)
             {
@@ -106,88 +111,19 @@ namespace FirstGame
                 Rows.Add(thisRow);
             }
 
-            Rows[0].Columns[3].TileID = 3;
-            Rows[0].Columns[4].TileID = 3;
-            Rows[0].Columns[5].TileID = 1;
-            Rows[0].Columns[6].TileID = 1;
-            Rows[0].Columns[7].TileID = 1;
+            // Render level by setting the base, height, and topper tile of each tile 
+            // to being those defined by the appropriate block in the level object
+            for (int row = 0; row < level.Rows; row++)
+            {
+                for (int column = 0; column < level.Columns; column++)
+                {
+                    LevelLibrary.Block block = level.GetBlock(row, column, 0);
+                    Rows[row].Columns[column].AddBaseTile(block.BaseTile);
+                    Rows[row].Columns[column].AddHeightTile(block.HeightTile);
+                    Rows[row].Columns[column].AddTopperTile(block.TopperTile);
+                }
+            }
 
-            Rows[1].Columns[3].TileID = 3;
-            Rows[1].Columns[4].TileID = 1;
-            Rows[1].Columns[5].TileID = 1;
-            Rows[1].Columns[6].TileID = 1;
-            Rows[1].Columns[7].TileID = 1;
-
-            Rows[2].Columns[2].TileID = 3;
-            Rows[2].Columns[3].TileID = 1;
-            Rows[2].Columns[4].TileID = 1;
-            Rows[2].Columns[5].TileID = 1;
-            Rows[2].Columns[6].TileID = 1;
-            Rows[2].Columns[7].TileID = 1;
-
-            Rows[3].Columns[2].TileID = 3;
-            Rows[3].Columns[3].TileID = 1;
-            Rows[3].Columns[4].TileID = 1;
-            Rows[3].Columns[5].TileID = 2;
-            Rows[3].Columns[6].TileID = 2;
-            Rows[3].Columns[7].TileID = 2;
-
-            Rows[4].Columns[2].TileID = 3;
-            Rows[4].Columns[3].TileID = 1;
-            Rows[4].Columns[4].TileID = 1;
-            Rows[4].Columns[5].TileID = 2;
-            Rows[4].Columns[6].TileID = 2;
-            Rows[4].Columns[7].TileID = 2;
-
-            Rows[5].Columns[2].TileID = 3;
-            Rows[5].Columns[3].TileID = 1;
-            Rows[5].Columns[4].TileID = 1;
-            Rows[5].Columns[5].TileID = 2;
-            Rows[5].Columns[6].TileID = 2;
-            Rows[5].Columns[7].TileID = 2;
-
-            Rows[3].Columns[5].AddBaseTile(30);
-            Rows[4].Columns[5].AddBaseTile(27);
-            Rows[5].Columns[5].AddBaseTile(28);
-
-            Rows[3].Columns[6].AddBaseTile(25);
-            Rows[5].Columns[6].AddBaseTile(24);
-
-            Rows[3].Columns[7].AddBaseTile(31);
-            Rows[4].Columns[7].AddBaseTile(26);
-            Rows[5].Columns[7].AddBaseTile(29);
-
-            Rows[4].Columns[6].AddBaseTile(104);
-
-            Rows[16].Columns[4].AddHeightTile(54);
-
-            Rows[17].Columns[3].AddHeightTile(54);
-
-            Rows[15].Columns[3].AddHeightTile(54);
-            Rows[16].Columns[3].AddHeightTile(53);
-
-            Rows[15].Columns[4].AddHeightTile(54);
-            //Rows[15].Columns[4].AddHeightTile(54);
-            Rows[15].Columns[4].AddHeightTile(53);
-
-            Rows[18].Columns[3].AddHeightTile(51);
-            Rows[19].Columns[3].AddHeightTile(50);
-            Rows[18].Columns[4].AddHeightTile(55);
-
-            Rows[14].Columns[4].AddHeightTile(54);
-
-            Rows[14].Columns[5].AddHeightTile(62);
-            Rows[14].Columns[5].AddHeightTile(61);
-            Rows[14].Columns[5].AddHeightTile(63);
-
-            Rows[17].Columns[4].AddTopperTile(114);
-            Rows[16].Columns[5].AddTopperTile(115);
-            Rows[14].Columns[4].AddTopperTile(125);
-            Rows[15].Columns[5].AddTopperTile(91);
-            Rows[16].Columns[6].AddTopperTile(94);
-
-            Rows[15].Columns[5].Walkable = false;
-            Rows[16].Columns[6].Walkable = false;
         }
 
         public Point WorldToMapCell(Vector2 worldPoint)

@@ -74,8 +74,11 @@ namespace FirstGame
             //Load a font into the Content Pipeline
             pericles6 = Content.Load<SpriteFont>(@"Fonts\Pericles6");           
         
-            //Load a sprite for mouse selection into the content pipeline
-            myMap = new TileMap(Content.Load<Texture2D>(@"Tilesets\mousemap"));
+            // Load a level object
+            LevelLibrary.Level level = Content.Load<LevelLibrary.Level>(@"Levels/level2");
+
+            //Load a sprite for mouse selection into the content pipeline using the above level file
+            myMap = new TileMap(Content.Load<Texture2D>(@"Tilesets\mousemap"), level);
 
             //Set Camera settings so we can see and move around in the world.
             Camera.ViewWidth = this.graphics.PreferredBackBufferWidth;
